@@ -1,0 +1,498 @@
+
+*{ margin: 0;
+   border: border-box;
+   
+   
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly; /**jo bhi navbar hoga usko evenly space milegi**/
+    
+}
+
+.nav-logo{
+    height: 65px ;
+    width: 115px;
+}
+
+.logo{
+    background-image: url("images/Amazon-Symbol.jpg");
+    height: 65px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    
+
+}
+.border{
+    border: 1.8px solid transparent;
+}
+.border:hover{
+    border: 1.8px solid white;
+    align-items: center;
+}
+.logo-address{
+    height: 65px;
+    width: 89px;
+    align-content: center;
+    
+
+}
+/** box of location**/
+
+.add-first{
+    color:#cccc;
+    font-size:.87rem;         /**font sizzes in rem as it will make the website more responsive**/
+    margin-left: 15px;
+}
+.add-sec{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box2**/
+
+.searchbar{
+    display: flex;
+    height: 50px;
+    width: 650px;
+   align-items: center;
+   background-color:#0f1111;
+   border-radius: 5px;
+
+}
+.searchbar:hover{
+    border: 1.8px solid #ffce12;
+}
+#search-select{
+    background-color: #f3f3f3;
+    width: 55px;
+    height:45px ;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+}
+.search{
+    background-color: white;
+    height: 45px;
+    width: 550px;
+    font-size: .95rem;
+    border: none; /**to make border search bar n all box equal**/
+}
+
+
+    
+
+#search-icon{
+    background-color: #ffce12;
+    height: 45px;
+    width:45px;
+   
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    align-content: center;
+    text-align:center ;
+    font-size: 20px;
+    color: #0f1111;
+    
+}
+/**box4**/
+.lang-box{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+}
+.EN{
+    margin-left: 5px;
+    
+}
+
+/**box5**/
+.nav-signin{
+    height: 45px;
+    
+    align-items: center;
+}
+.orders{
+    height: 45px;
+    
+    align-items: center;
+}
+.nav-signin-first{
+    font-size: .90rem;
+    
+}
+.nav-signin-sec{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/**box6**/
+
+/**.cart i {} **/        /**IMP**/       /**i is used for icons ie these will apply to the icons only**/
+.cart{
+    align-items: center;
+    display: flex;
+    height: 65px;
+}
+.cartlogo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.cart1{
+    font-size:1.2rem ;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+
+
+/**navbar2**/
+
+.navbar2{
+    height: 45px;
+    background-color: #222f3d;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    color:#f3f3f3;
+    justify-content:flex-start;
+   
+
+
+}
+.nav2-logo{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    gap: 30px;
+
+
+}
+.menulogo1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 45px;
+}
+.menulogo{
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.menuall{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.menu1{
+    display: flex;
+    font-size: .98rem;
+    font-weight: 500;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/**hero section**/
+.hero-section{
+    background-image: url("images/amazonFRONT.jpg");
+    background-size: cover;
+    height: 350px;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /**uss click here to go to amazon.in ko end pe chipkaane ke liye tha**/
+
+}
+.hero-section-text{
+    background-color: #f3f3f3;
+    height: 45px;
+    justify-content: center;  /**horizontally centre mein lane ke liye**/
+    color: #0f1111;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    width: 85%;
+    margin-bottom:35px ;
+
+}
+
+/**shop-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap; /**ek line mein 4 hi boxes usse jyada add nahi honge **/
+    margin: 0;
+    height: 1178px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(175, 228, 242);
+}
+
+
+.box{
+    border: 3px solid #f8bd19; 
+    height: 350px; 
+    flex-wrap: wrap; 
+    width: 23%;  
+    background-color: rgb(250, 221, 242);
+    border-radius: 6px;
+    scroll-margin-block-start:20px;
+
+}
+.images{
+    width: 300px;
+    margin: 22px;
+}
+.first{
+    display: flex;
+    margin: 25px;
+}
+.sec{
+    display: flex;
+}
+.images1{
+    height: 90px;
+    justify-content: space-evenly;
+
+    
+}
+.shop-text{
+   margin-top: 14px;
+   margin-left: 20px;
+
+
+}
+.image-text{
+    display: flex;
+    align-items: flex-end;
+    flex-direction:row;
+}
+.shop-link{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+/**footer**/
+
+.footer-panel{
+    height: 19px;
+    width: 100%;
+    align-content:flex-start;
+    justify-content:space-evenly;
+    text-align: center;
+    background-color: #242f3a;
+    padding: 15px;
+    color: #f3f3f3;
+    font-size: .94rem;
+   
+    
+}
+
+/**recommendations**/
+.recom{
+    height:200px;
+    width: 100%;
+    
+    
+    
+}
+.recom1{
+    height: 160px;
+    width: 100%;
+    border: 1px solid #606f7f;
+    text-align: center;
+    margin-top: 50px;
+
+    background-color:#f3f3f3;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    
+    
+
+    
+}
+.recom-text{
+   margin: 15px;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+#input-recom{
+ height: 35px;
+ width: 180px;
+ background-color: #f8bd19;
+ color: #0f1111;
+ border-radius: 30px;
+ border: 0px;
+ font-weight: 200;
+ font-size: .90rem;
+ 
+}
+.recom-new{
+    margin-top: 5px;
+    font-size: .80rem;
+}
+.nav-footer-border
+{
+    background-color:#03172c;
+    height: 50px;
+    width: 100%;
+    
+}
+.nav-foot{
+    height: 410px;
+    width: 100%;
+    border: none;
+}
+
+.nav-footer{
+    height: 295px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.nav-col{
+    
+    justify-content: space-evenly;
+    height: 295px;
+    width: 290px;
+    background-color: #03172c;
+    color: #e5d7d7;
+    
+  
+}
+.col-text{
+    display: flex;
+    
+    justify-content:flex-start;
+    margin-block-start: 10px;
+    font-size: .89rem;
+     text-decoration-color: #f6efef;
+      color: #f6efef;
+      margin-left: 10px;
+    
+
+}
+.col-text1{
+    font-weight: 200;
+    font-size: .89rem;
+    text-decoration-color: #f6efef ;
+    color: #f6efef;
+    
+
+}
+.col-text2{
+    margin-left: 10px;
+}
+
+.col2{
+    height: 295px;
+    width:120px;
+    background-color: #03172c;
+}
+.col4{
+    height: 295px;
+    width:120px;
+    background-color: #03172c;
+
+}
+.col6{
+    height: 295px;
+    width:120px;
+    background-color: #03172c;
+
+}
+.nav-footer-border1
+{
+    background-color:#03172c;
+    height: 50px;
+    width: 100%;
+  }
+
+.nav-footer-border2
+{
+    background-color:#03172c;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    border: .40px solid #686c75;
+   
+   
+}
+#foot-amazon-logo{
+    font-size: 2.2rem;
+    color:#f3f3f3 ;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 16px;
+}
+.foot-lang{
+    display: flex;
+    justify-content: center;           /**  IMPORTANT  **/
+    gap: 8px;
+    align-items: center;             /**justify items : center (for horizontally center) 
+                                    align items: center (for vertically center)**/
+    
+   
+    
+    
+}
+.lang-box{
+    justify-content: space-evenly;
+    border:.30px solid  #f6efef;
+    height: 35px;
+    border-radius: 4px;
+    width: 140px;
+    color: #f3f3f3;  
+    
+}
+.nav-last{
+    height: 100px;
+    width: 100%;
+    background-color:#0f1111;
+    justify-items: center;
+    align-items: center;
+     color: #e5d7d7;
+     text-align: center;
+     justify-content: center;
+     font-size: .80rem;
+
+}
+.last-link{
+    color: #e5d7d7;
+    gap: 5px;
+    font-size: .80rem;
+    margin-top: 20px;
+}
+.links-1{
+    margin-top: 8px;
+     margin-block-start: 10px;
+}
+.nav-last1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-inline-start: 20px;
+
+}

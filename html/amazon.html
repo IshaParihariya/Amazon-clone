@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!--
+**CSS**
+1. border:border-box; (if border incereases it will decrease the photo size and adjust so no new space taken)
+2.*{ } (this is for the whole code)
+3.to give class to class ( <div class="nav border"></div> ) here the border is class of nav as it is written after after space
+4. HOVER EFFECT FOR BORDER ON LOGOS 
+.border{
+    border: 1.7px solid transparent;
+}
+.border:hover{
+    border: 1.7px solid white;
+}
+    5. display:flex; (saari chize same line mein for ex navbar mein sab horizonatlly line wise)
+    6. images would need a height and width if in  a div or else they wouldnt show**IMP
+-->
+<body>
+    <!--navbar-->
+    <header>
+    <div  class="navbar">
+    <div class="nav-logo border">
+        <div class="logo"></div>
+    </div>
+         <div class="logo-address border"> 
+            <p class="add-first">Deliver to</p>
+            <div class="location-icon"> <i class="fa-solid fa-location-dot"></i> <p class="add-sec">India</p> </div>
+         </div>
+         <div class="searchbar">
+            
+        <select name="search" id="search-select" >
+            <option value="">All</option>
+            <option value="all depart">All departments</option>
+            <option value="arts and crafts">Arts and crafts</option>
+            <option value="automotive">Automotive</option>
+            <option value="baby">Baby</option>
+            <option value="books">Books</option>
+            <option value="computers">Computers</option>
+        </select>
+        <input type="search" class="search" placeholder="Search Amazon">
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+         
+         </div>
+         <div class="lang-box border">
+            <div class="lang-logo">
+                <i class="fa-solid fa-flag-usa"></i></div>
+            <div class="EN">EN</div>
+         </div>
+         <div class="nav-signin border">
+            <p class="nav-signin-first">Hello,sign in</p>
+            <p class="nav-signin-sec">Accounts and lists</p>
+        </div>
+        <div class="orders border">
+            <p class="nav-signin-first">Returns</p>
+            <p class="nav-signin-sec">& Orders</p>
+        </div>
+        <div class="cart border">
+                <div class="cartlogo"><i class="fa-solid fa-cart-shopping"></i> </div>
+                   <div class="cart1" >Cart</div>
+               
+                
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="navbar2">
+            <div class="nav2-logo">
+              <div class="menulogo1 border"> 
+                <div class="menulogo"><i class="fa-solid fa-bars"></i></div>
+                <div class="menuall">All</div>
+            </div>
+                <div class="menu1">
+                    <div class="border">Today's Deals</div>
+                    <div class="border">Registry</div>
+                    <div class="border">Prime Video</div>
+                    <div class="border">Gift Cards</div>
+                    <div class="border">Customer Services</div>
+                    <div class="border">Sell</div>
+                </div>
+                
+            </div>
+        </div>
+
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-section-text">
+            <p class="text">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. </p> <a href="amazon.in"> Click here to go to amazon.in</a>
+                
+            
+        </div>
+
+    </div>
+
+    <div class="shop-section">
+        
+           <div class="box" id="box1"><h2 class="shop-text">Shop Amazon's exclusive toys </h2>
+            <img src="images/amazonFRONT1.jpg" class="images" alt="toys">
+       <a href="" class="shop-link">See more toys and games</a>
+            </div>
+            <div class="box" id="box2"><h2 class="shop-text">Prime video</h2>
+                <img src="images/amazonFRONT2.jpg"   class="images" alt="prime video">
+       <a href=""  class="shop-link">Explore prime video</a>
+            </div>
+            <div class="box" id="box1"><h2 class="shop-text">Amazon's exclusive </h2>
+            <img src="images/amazonFRONT6.jpg" class="images" alt="device">
+       <a href="" class="shop-link">See more </a>
+            </div>
+            <div class="box" id="box4"><h2 class="shop-text">Small space solutions</h2>
+                <img src="images/amazonFRONT5.jpg" class="images" alt="furniture">
+       <a href=""  class="shop-link">Shop small space furnitures and Decors</a>
+            </div>
+
+
+             <div class="box" id="box5"><h2 class="shop-text"> Amazon Devices</h2>
+            <img src="images/amazonFRONT4.jpg" class="images" alt="devices">
+       <a href="" class="shop-link">Technical devices</a>
+            </div>
+            <div class="box" id="box6"><h2 class="shop-text">Plants</h2>
+                <img src="images/amazonFRONT7.jpg"   class="images" alt="plants">
+       <a href=""  class="shop-link">Plants</a>
+            </div>
+            <div class="box" id="box7"><h2 class="shop-text">All brands </h2>
+            <img src="images/amazonFRONT8.jpg" class="images" alt="clthes">
+       <a href="" class="shop-link">Clothing brands</a>
+            </div>
+            <div class="box" id="box8"><h2 class="shop-text">Gaming devices</h2>
+                <img src="images/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg" class="images" alt="game">
+       <a href=""  class="shop-link">Games and more</a>
+            </div>
+
+
+
+             <div class="box" id="box1"><h2 class="shop-text">Shop Amazon's exclusive toys </h2>
+            <img src="images/amazonFRONT1.jpg" class="images" alt="toys">
+       <a href="" class="shop-link">See more toys and games</a>
+            </div>
+            <div class="box" id="box2"><h2 class="shop-text">Prime video</h2>
+                <img src="images/amazonFRONT2.jpg"   class="images" alt="prime video">
+       <a href=""  class="shop-link">Explore prime video</a>
+            </div>
+            <div class="box" id="box1"><h2 class="shop-text">Amazon's exclusive </h2>
+            <img src="images/amazonFRONT6.jpg" class="images" alt="device">
+       <a href="" class="shop-link">See more </a>
+            </div>
+            <div class="box" id="box4"><h2 class="shop-text">Small space solutions</h2>
+                <img src="images/amazonFRONT5.jpg" class="images" alt="furniture">
+       <a href=""  class="shop-link">Shop small space furnitures and Decors</a>
+            </div>
+    </div>
+    
+
+    <footer>
+        
+        <div class="recom">
+            <div class="recom1">
+               <div class="recom-text">See personalised recommendations</div>
+                <div class="sign-recom"> <input type="submit" value="sign-in" placeholder="Sign in" id="input-recom"></div>
+                <div class="recom-new">New Customer? <a href="Start here">Start here.</a></div>
+            </div>
+        </div>
+        
+        <div class="footer-panel">
+            Back to top
+        </div>
+        
+        <div class="nav-footer-border">
+
+        </div>
+
+
+        <div class="nav-foot">
+        <div class="nav-footer">
+           
+                
+                <div class="col1 nav-col"><h3 class="col-text2">Get to Know Us</h3>
+                     <a href="" class="col-text">Careers</a>
+                      <a href="" class="col-text">Blog</a>
+                       <a href="" class="col-text">About Amazon</a>
+                        <a href="" class="col-text">Investor Relations</a>
+                         <a href="" class="col-text">Amazon Devices</a>
+                          <a href="" class="col-text">Amazon Science</a>
+                </div>
+                <div  class="col2"><h3></h3></div>
+                <div  class="col3 nav-col"><h3 class="col-text2"> Make Money with Us</h3>
+                      <a href="" class="col-text">Sell products on Amazon</a>
+                       <a href="" class="col-text">Sell on Amazon Business</a>
+                        <a href="" class="col-text">Sell apps on Amazon</a>
+                         <a href="" class="col-text">Become an Affiliate</a>
+                          <a href="" class="col-text">Advertise Your Products</a>
+                           <a href="" class="col-text">Self-Publish with Us</a>
+                            <a href="" class="col-text">Host an Amazon Hub</a>
+                             <a href="" class="col-text1"> > See More Make Money With Us</a>
+                </div>
+                <div  class="col4 "><h3></h3></div>
+                <div  class="col5 nav-col"><h3 class="col-text2">Amazon Payment Products</h3>
+                       <a href="" class="col-text">Amazon Business Card</a>
+                        <a href="" class="col-text">Shop with Points</a>
+                         <a href="" class="col-text">Reload Your Balance</a>
+                          <a href="" class="col-text">Amazon Currency Converter</a>
+                </div>
+                <div  class="col6 "><h3></h3></div>
+                <div  class="col7 nav-col"><h3 class="col-text2">Let Us Help You</h3>
+                     <a href="" class="col-text">Amazon and COVID-19</a>
+                      <a href=""class="col-text">Your Orders</a>
+                       <a href="" class="col-text">Your Account</a>
+                        <a href="" class="col-text">Shipping Rates & Policies</a>
+                         <a href="" class="col-text">Manage Your Content and Devices</a>
+                          <a href="" class="col-text">Help</a>
+
+                </div>
+             </div>
+
+        <div class="nav-footer-border1">
+
+        </div>
+
+        
+        
+        <div class="nav-footer-border2">
+           <div class="foot-amazon-logo-1">
+            <i id="foot-amazon-logo" class="fa-brands fa-amazon"></i>
+        
+           </div>
+
+            <div class="foot-lang">
+             <div class="foot-lang1 lang-box">English</div>
+             <div class="foot-lang2 lang-box">$ USD U.S. Dollar</div>
+             <div class="foot-lang3 lang-box"> <i class="fa-solid fa-flag-usa"></i>
+                United States</div>
+             
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="nav-last">
+                
+                    <div class="nav-last1">
+                    <a href="" class="last-link links-1">Conditions of Use</a>
+                     <a href="" class="last-link links-1">Privacy Notice</a>
+                      <a href="" class="last-link links-1">Customer Health Data Privacy Disclosure</a>
+                       <a href="" class="last-link links-1">Your Ads Privacy Choices</a>
+                </div>
+                <div class="nav-last2 links-1">
+                    © 1996-2025, Amazon.com, Inc. or its affiliates
+                </div>
+            </div>
+        
+        
+
+    </footer>
+    
+</body>
+</html>
