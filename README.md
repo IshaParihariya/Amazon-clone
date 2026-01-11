@@ -1,6 +1,6 @@
 # Amazon Clone
 
-This is my Amazon clone project built with HTML and CSS.
+This is my Amazon home page replica built with HTML and CSS in the learning process.
 
 ## Source Code
 [GitHub Repository](https://github.com/IshaParihariya/Amazon-clone)
